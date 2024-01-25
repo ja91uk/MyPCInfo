@@ -21,7 +21,7 @@ Clear-Host
 # Set layout of the info to be displayed
 $o = ([ordered]@{
     "Client PC Name" = "$($os.CSName)"
-    "CLient PC Domain" = $cs.Domain
+    "Client PC Domain" = $cs.Domain
     "IPv4 Address(es)" = $ip
     "User Name" = "$flname"
     "AD User Name" = $usr
